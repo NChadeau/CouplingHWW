@@ -63,4 +63,4 @@ add_library( ${PROJECT_NAME} SHARED ${sources} ${headers} )
 target_link_libraries( ${PROJECT_NAME} ${ROOT_COMPONENT_LIBRARIES} )
 install( TARGETS ${PROJECT_NAME} LIBRARY DESTINATION ${PROJECT_SOURCE_DIR}/lib )
 
-ADD_SUBDIRECTORY(./Plots)
+ADD_SUBDIRECTORY(./plots)
